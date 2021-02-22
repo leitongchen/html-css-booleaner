@@ -14,7 +14,7 @@
 /* settaggio per i link */
 a {
     text-decoration: none;
-    color: rgb(56, 147, 175);
+    color: rgb(20, 169, 238);
 }
 a:hover {
     text-decoration: underline;
@@ -49,4 +49,41 @@ header img {
 .article-info time, .photo-description {
     font-size: .5rem;
 }
+
+.text-article {
+    font-size: 14px;
+}
+
+.text-article p {
+    margin: 20px 0;
+}
+
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+}
+
+table th{
+    height: 50px;
+    background-color: rgb(20, 169, 238);
+    color: white;
+    text-align: left;
+  }
+
+td {
+    width: 25%;
+}
+
+.large-column {
+    width: 50%;
+}
+
+.coloured-row {
+    background-color: rgba(20, 169, 238, 0.3);
+}
+
 
