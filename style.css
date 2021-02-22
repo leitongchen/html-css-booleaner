@@ -2,13 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, serif;
 }
 
+/* allineamento centrale alla pagina */
 .h-center {
     width: 80vw;
     margin: auto;
 }
 
+/* settaggio per i link */
+a {
+    text-decoration: none;
+    color: rgb(56, 147, 175);
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* header */
 header {
     background: rgb(82, 162, 252) url('img/pattern.png');
     background-size:contain;
@@ -21,3 +33,20 @@ header img {
     position: absolute;
     bottom:10px;
 }
+
+/*  */
+.article-title {
+    font-size: 25px;
+    margin: 20px 0 5px 0;
+}
+
+.article-info {
+    font-size: 13px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 20px;
+}
+
+.article-info time, .photo-description {
+    font-size: .5rem;
+}
+
