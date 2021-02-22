@@ -112,3 +112,6 @@ td {
     background-image: url(img/monitor.jpg);
 }
 
+.highlight {
+    background-color: yellow;
+}
