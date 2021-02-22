@@ -63,7 +63,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 table th{
@@ -85,4 +85,26 @@ td {
     background-color: rgba(20, 169, 238, 0.3);
 }
 
+/* Sezione Potrebbe interessarti */
+#more-articles h3 {
+    color: rgb(122, 122, 122);
+}
+
+.one-article{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.argomentoA {
+    background-image: url(img/graph.jpg);
+}
+
+.argomentoB {
+    background-image: url(img/monitor.jpg);
+}
 
