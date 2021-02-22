@@ -58,8 +58,7 @@ header img {
     margin: 20px 0;
 }
 
-
-
+/* settaggio tabella */
 table {
     table-layout: fixed;
     width: 100%;
@@ -68,7 +67,7 @@ table {
 }
 
 table th{
-    height: 50px;
+    height: 30px;
     background-color: rgb(20, 169, 238);
     color: white;
     text-align: left;
