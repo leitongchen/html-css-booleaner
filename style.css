@@ -50,6 +50,13 @@ header img {
     font-size: .5rem;
 }
 
+#title-section img {
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .text-article {
     font-size: 14px;
 }
@@ -58,7 +65,7 @@ header img {
     margin: 20px 0;
 }
 
-ul {
+li {
     list-style-position: inside;
 }
 
@@ -77,10 +84,6 @@ table th{
     text-align: left;
   }
 
-td {
-    width: 25%;
-}
-
 .large-column {
     width: 50%;
 }
@@ -95,7 +98,6 @@ td {
 }
 
 .one-article{
-    background-repeat: no-repeat;
     background-size: cover;
     width: 350px;
     height: 250px;
@@ -104,14 +106,10 @@ td {
     margin-top: 20px;
 }
 
-.argomentoA {
+#argomentoA {
     background-image: url(img/graph.jpg);
 }
 
-.argomentoB {
+#argomentoB {
     background-image: url(img/monitor.jpg);
-}
-
-.highlight {
-    background-color: yellow;
 }
