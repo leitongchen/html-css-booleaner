@@ -84,11 +84,12 @@ table th{
     text-align: left;
   }
 
-.large-column {
+  /* larghezza terza colonna tabella */
+tr th:last-child {
     width: 50%;
 }
 
-.coloured-row {
+table tr:nth-child(even) {
     background-color: rgba(20, 169, 238, 0.3);
 }
 
